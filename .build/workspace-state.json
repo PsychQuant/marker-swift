@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "markdown-swift",
+          "kind" : "fileSystem",
+          "location" : "/Users/che/Library/CloudStorage/Dropbox/che_workspace/projects/markdown-swift",
+          "name" : "MarkdownSwift"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/che/Library/CloudStorage/Dropbox/che_workspace/projects/markdown-swift"
+        },
+        "subpath" : "markdown-swift"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
