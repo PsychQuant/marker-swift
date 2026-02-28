@@ -8,18 +8,25 @@ let package = Package(
         .library(name: "MarkerSwift", targets: ["MarkerSwift"])
     ],
     dependencies: [
-        .package(url: "https://github.com/kiki830621/markdown-swift.git", from: "0.1.0")
+        .package(url: "https://github.com/kiki830621/markdown-swift.git", from: "0.1.0"),
+        .package(path: "../word-to-md-swift"),
+        .package(path: "../ooxml-swift"),
     ],
     targets: [
         .target(
             name: "MarkerSwift",
             dependencies: [
-                .product(name: "MarkdownSwift", package: "markdown-swift")
+                .product(name: "MarkdownSwift", package: "markdown-swift"),
+                .product(name: "WordToMDSwift", package: "word-to-md-swift"),
+                .product(name: "OOXMLSwift", package: "ooxml-swift"),
             ]
         ),
         .testTarget(
             name: "MarkerSwiftTests",
-            dependencies: ["MarkerSwift"]
+            dependencies: [
+                "MarkerSwift",
+                .product(name: "OOXMLSwift", package: "ooxml-swift"),
+            ]
         )
     ]
 )
