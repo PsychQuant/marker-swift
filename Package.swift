@@ -8,8 +8,7 @@ let package = Package(
         .library(name: "MarkerSwift", targets: ["MarkerSwift"])
     ],
     dependencies: [
-        // Local dependency during development
-        .package(path: "../markdown-swift")
+        .package(url: "https://github.com/kiki830621/markdown-swift.git", from: "0.1.0")
     ],
     targets: [
         .target(
