@@ -9,8 +9,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/PsychQuant/markdown-swift.git", from: "0.1.0"),
-        .package(path: "../word-to-md-swift"),
-        .package(path: "../ooxml-swift"),
+        .package(url: "https://github.com/PsychQuant/word-to-md-swift.git", from: "0.5.1"),
+        .package(url: "https://github.com/PsychQuant/ooxml-swift.git", from: "0.5.1"),
     ],
     targets: [
         .target(

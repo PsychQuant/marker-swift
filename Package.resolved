@@ -1,6 +1,42 @@
 {
   "pins" : [
     {
+      "identity" : "doc-converter-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PsychQuant/doc-converter-swift.git",
+      "state" : {
+        "revision" : "53400b2032389962dc5a10d135644b21d3cf1e06",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "markdown-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PsychQuant/markdown-swift.git",
+      "state" : {
+        "revision" : "1995a4dde95afa95408c6ebb8dab36cc0c2f8c32",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "ooxml-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PsychQuant/ooxml-swift.git",
+      "state" : {
+        "revision" : "f10e80432c46796062470064c277f971539f175d",
+        "version" : "0.5.3"
+      }
+    },
+    {
+      "identity" : "word-to-md-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PsychQuant/word-to-md-swift.git",
+      "state" : {
+        "revision" : "e363ca5e92fa0717c902b234dc3c3b3464944e65",
+        "version" : "0.5.1"
+      }
+    },
+    {
       "identity" : "zipfoundation",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/weichsel/ZIPFoundation.git",
