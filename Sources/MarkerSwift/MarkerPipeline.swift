@@ -1,6 +1,6 @@
 import Foundation
 import OOXMLSwift
-import WordToMDSwift
+import WordToMD
 import CommonConverterSwift
 
 /// High-level pipeline that converts .docx → Marker directory structure.

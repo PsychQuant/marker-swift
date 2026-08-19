@@ -1,7 +1,7 @@
 import XCTest
 @testable import MarkerSwift
 import OOXMLSwift
-import WordToMDSwift
+import WordToMD
 
 /// Tests for MarkerPipeline integration.
 ///

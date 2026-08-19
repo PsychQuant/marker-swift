@@ -7,16 +7,87 @@
       {
         "basedOn" : null,
         "packageRef" : {
+          "identity" : "common-converter-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PsychQuant/common-converter-swift.git",
+          "name" : "CommonConverterSwift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "53400b2032389962dc5a10d135644b21d3cf1e06",
+            "version" : "0.4.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "common-converter-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
           "identity" : "markdown-swift",
-          "kind" : "fileSystem",
-          "location" : "/Users/che/Library/CloudStorage/Dropbox/che_workspace/projects/markdown-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PsychQuant/markdown-swift.git",
           "name" : "MarkdownSwift"
         },
         "state" : {
-          "name" : "fileSystem",
-          "path" : "/Users/che/Library/CloudStorage/Dropbox/che_workspace/projects/markdown-swift"
+          "checkoutState" : {
+            "revision" : "28a2d76ae7bc293b715a7cb6f4cfb473acfa2712",
+            "version" : "0.2.0"
+          },
+          "name" : "sourceControlCheckout"
         },
         "subpath" : "markdown-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "ooxml-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PsychQuant/ooxml-swift.git",
+          "name" : "OOXMLSwift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "05ec35aa59932f6617b199c54c212cedb1d8d180",
+            "version" : "3.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "ooxml-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "word-to-md-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PsychQuant/word-to-md-swift.git",
+          "name" : "WordToMD"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "53a451f2f0ed0f769ead03afc7ec9354ef8b6909",
+            "version" : "1.0.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "word-to-md-swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "zipfoundation",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/weichsel/ZIPFoundation.git",
+          "name" : "ZIPFoundation"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+            "version" : "0.9.20"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "ZIPFoundation"
       }
     ],
     "prebuilts" : [
